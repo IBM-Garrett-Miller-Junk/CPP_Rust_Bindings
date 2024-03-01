@@ -1,0 +1,11 @@
+[package]
+name = "CPP_Rust_Bindings"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cxx = { version = "^1.0" }
+
+[build-dependencies]
+cxx-build = { version = "^1.0" }
+
